@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #9999A1;
+    font-family: "Quicksand";
+    color: #393E41;
+
+     
+}
+
+.innpakning {
+    background-color: #D3D0CB;
+    width: 90%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.innhold {
+    padding: 1%;
+
+}
+
+.navbar {
+    background-color: #587B7F;
+    
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333#333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+
+  .navbar li a:hover {
+    background-color: #E0BD3E;
+
+  }
