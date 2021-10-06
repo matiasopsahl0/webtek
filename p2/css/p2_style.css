@@ -1,0 +1,28 @@
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #393E41;
+
+}
+
+
+.innpakning {
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.content-div .div5 img {
+
+  width: 100%;
+}
+
+
+
+
+  
+
