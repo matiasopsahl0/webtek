@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../p2/css/p2_style.css">
@@ -41,7 +41,7 @@
                 <p>
                     Vi ønsker å gi brukerne av nettsiden så mye frihet som mulig når de benytter seg av nettsiden. Det er viktig at brukeren har oversikt over den generelle strukturen på nettsiden og mulighetene brukeren har. Det er det underliggende resonnementet vårt bak en clique struktur. Et eksempel på dette er at dersom man befinner seg på “lån ut bolig”-siden har man tilgang til den samme navigasjonsbaren som på de andre sidene. Dermed blir det enkelt å navigere seg videre dersom det er ønskelig og man unngår å miste funksjonalitet ved at brukeren ikke finner frem til den ønskede siden. 
                 </p>
-                <img src="../p2/img/mockups/fil_navigasjon.png" width="700" height="700">
+                <img src="../p2/img/mockups/fil_navigasjon.png" width="700" height="700" alt="fil-navigasjon">
             </div>
 
             <div class="div5">
@@ -54,17 +54,18 @@
                     Høyden på footeren er 5%, bredden er 100% og bakgrunnsfargen er #D3D3D3. I footeren står navnet på selskapet sammen med de som har designet den (oss). 
                     Bakgrunnsfargen på selve innholdselementet er #F2F2F2, og dette går igjen på alle sidene.
                 </p>
-                <img src="/p2/img/mockups/felles_clean.jpg" width="500" height="400">
+                <img src="/p2/img/mockups/felles_clean.jpg" width="500" height="400" alt="felles-style">
                 <h3>Stylingen som vil gå igjen på alle sidene er:</h3>
                 <ul>
                     <li>Skrifttype: Georgia</li>
                     <li>Fargetema: </li>
-                    <ul>
+                    <li><ul>
                         <li>Tekst: #393E41</li>
                         <li>Bakgrunnsfarge: #F2F2F2</li>
                         <li>Linker: hvit</li>
-                        <li>Størrelse: ?????</li>
+                        <li>Størrelse: 20px</li>
                     </ul>
+                    </li>
                     <li>Navigasjonsbar: Navigasjonsbaren er alltid festet øverst på siden, og har bakgrunnsfargen #2C3137. Linkene i navigasjonsbaren er hvite, og når man beveger musa over hver av linkene blir bakgrunnsfargen på linkene endret til #D3D3D3.</li>
                     <li>Body width: 100%</li>
                     <li>Logo: Logoen ligger til venstre øverst i navigasjonsbaren og er et bilde av et en hånd med et hus og en familie over seg. Dette skal symbolisere at vi skaper hjem for familier som trenger det. Denne logoen vil være også fungere som en klikkbar link som tar deg til hovedsiden. </li>
@@ -80,7 +81,7 @@
                 <br>
                 Hjemmesiden er det første man møter når man besøker nettsiden vår.  Siden er todelt, og designet er unikt for denne siden. Den venstre halvparten er dedikert til de rammede, og hvis man trykker på denne delen av siden blir man sendt til “finn bolig”-siden. Den høyre halvparten er derimot rettet mot de frivillige som ønsker å bidra med en egen eller en del av sin egen bolig, til disposisjon for dem som trenger det. Begge delene skal tydelig vise hvem som fører til hva, og dette forsterker vi ved å bruke både bilde og tekst. Målet med denne siden er altså å sende brukeren videre til riktig side på en effektiv og oversiktlig måte. Vi kunne hatt flere elementer på denne siden, men vi valgte å gjøre det enkelt og oversiktlig for å unngå potensiell forvirring.
             </p>
-            <img src="../p2/img/mockups/forside.jpg" width="500" height="400">
+            <img src="../p2/img/mockups/forside.jpg" width="500" height="400" alt="forside">
             <br>
             <p><i>Finn bolig - rammede.html</i>
                 <br>
@@ -91,45 +92,48 @@
                 <li>Fullt navn på kontaktperson</li>
                 <li>Telefonnummer på kontaktperson</li>
             </ul>
+            <p>
             Vi trenger denne informasjonen for å enkelt finne den best mulige løsningen for brukeren, samtidig som at kommunikasjonen mellom de som søker bosted og de som låner ut bosted skjer på en enkel og trygg måte. Vi har en lokal “database” i form av en array som inneholder de ulike tilbudene av boliger og relevant informasjon om bostedene. Ved å sende inn dette skjemaet vil vi filtrere arrayen til å vise de aktuelle boligene som matcher opplysningene fra brukeren. Dette gjør det lettere for brukeren å finne et bra tilbud. 
             Opplysningene skrives inn i et skjema som ligger i en sidebar på venstre side av nettsiden. Her er bakgrunnsfargen #6fa6ad. 
 
             </p>
-            <img src="../p2/img/mockups/rammede.png" width="500" height="400">
+            <img src="../p2/img/mockups/rammede.png" width="500" height="400" alt="rammede">
             <br>
             <p><i>Tilby bolig - frivillige.html</i>
                 <br>
                 Denne siden er for de frivillige som er villige til å låne ut rom eller bolig til de rammede som har mistet husene sine. For å komme til denne siden kan man enten klikke seg inn via linken i nav-baren eller ved å klikke på den høyre halvdelen av hjemmesiden. Målene for denne siden er at de frivillige skal enkelt og raskt kunne registrere sine boliger på en effektiv og trygg måte. På denne siden skal brukeren legge inn kontaktinformasjon om seg selv, og informasjon om boligen. Informasjonen som skal fylles inn er navn, telefonnummer, adresse, nærmeste by, antall soveplasser, antall kvadratmeter, og mulighet til å legge inn bilder. Vi trenger kontaktinformasjon om utleier for at selve prosessen med å få de rammede inn i boligen skal gå så effektivt og knirkefritt som mulig. Av sikkerhetsmessige årsaker er det også gunstig å ha nødvendig kontaktinformasjon. Når brukeren har fylt inn nødvendig informasjon skal han/hun sende inn dette ved å trykke på en submit knapp. Alle opplysningene er nødvendige for å kunne sende inn skjemaet. Brukeren skal da få en beskjed hvor det står at skjemaet er sendt inn. Dette gjør at det er enkelt og trygt for brukeren å registrere sin bolig.
             </p>
-            <img src="../p2/img/mockups/frivillig.png" width="500" height="400">
+            <img src="../p2/img/mockups/frivillig.png" width="500" height="400" alt="frivillige">
             <br>
             <p><i>Om oss - om_oss.html</i>
                 <br>
                 Denne siden skal inneholde relevant informasjon om den frivillige organisasjonen Krisebolig. For å komme til denne siden må man trykke på “om oss” i nav-baren. Målene for denne siden er at hvem som helst skal kunne finne relevant informasjon om Krisebolig på en minimalistisk nettside som gir følelse av ryddighet og profesjonalitet. Denne siden inneholder bilder av de viktige personene i organisasjonen, samt informasjon om dem. Det å ha kjennskap til hvem som driver en så viktig organisasjon er gir en følelse av trygghet. Videre skal det komme informasjon om historien til Krisebolig, samt hva som inspirerte dem til å gjøre det de gjør. Til slutt skal det komme informasjon om daglig drift, hvordan de opererer osv.
             </p>
-            <img src="../p2/img/mockups/om_oss.png" width="500" height="400">
+            <img src="../p2/img/mockups/om_oss.png" width="500" height="400" alt="om-oss">
             <br>
             <p><i>Kontakt oss - kontakt.html</i>
                 <br>
                 Denne siden skal være for brukere som vil komme i kontakt med Krisebolig av ulike årsaker. Målene med denne siden er at brukeren skal få svar på mulige spørsmål, eller få mulighet til å stille spørsmål direkte til Krisebolig. Siden inneholder en “ofte stilte spørsmål” hvor brukerne kan se om spørsmålet de har er allerede blitt svart på. Hvis brukeren ikke finner svar på det de lurte på under “ofte stilte spørsmål” får de mulighet til å spille spørsmål direkte til Krisebolig via et spørsmålsskjema. Under “kontakt oss” er det et spørsmålsskjema hvor brukeren må legge inn navn, e-post, emne, og meldingen de vil sende inn. Dette gjør at det er enkelt for brukeren å kunne stille spørsmål direkte til Krisebolig på en enkel og oversiktlig måte.
             </p>
-            <img src="../p2/img/mockups/kontakt_oss.png" width="500" height="400">
+            <img src="../p2/img/mockups/kontakt_oss.png" width="500" height="400" alt="kontakt-oss">
          </div>
 
         <div class="div7">
             <h2>Minimum requirements</h2>
             <p>
                 Matias, Jesper og Daniel har ansvaret for følgende javascript funksjonalitet:
+            </p>
                 <ul>
                     <li>På siden “finn bolig”, skal brukeren få muligheten til å angi antall personer og foretrukket by. Med disse opplysningene skal en javascript funksjon returnere indeksene til boliger som passer disse egenskapene, og kalle opp funksjonen som presenterer de relevante boligene</li>
                     <li>På siden “finn bolig”, skal en javascript funksjon visuelt presentere tilgjengelige boliger, innenfor parametrene angitt gjennom det aktive filteret, og skrive disse ut i form av html elementer som vises som annonser.</li>
                 </ul>
+                <p>
                 Chris og Sander er ansvarlige for følgende funksjonalitet:
+                </p>
                 <ul>
                     <li>på siden “kontakt oss”, skal vi ha et segment med ‘frequently asked questions’, som skal animeres av en javascript funksjon og gi en visning, der ved å holde musepekeren over spørsmålet, vil en rollover animasjon vise svaret til brukeren.</li>
                     <li>På siden ‘lån ut’ skal det simuleres en registrering av bolig tilgjengelig for utlån. Onclick js funksjonen, vil ikke lagre inndata, i en database, men fortsatt gjøre en vurdering om inndataene er gyldige. Om informasjonen brukeren har angitt er gyldig, vil en bekreftelse på publisering vises. Dersom inndataene er ugyldig, vil også brukeren få tilbakemelding om dette.</li>
                 </ul>
-            </p>
         </div>
 
         <div class="div8">
@@ -147,71 +151,84 @@
                         <li>rammede.html</li>
                         <li>frivillige.html</li>
                         <li>images/</li>
-                        <ul>
-                            <li>boliger/</li>
-                            <ul>
-                                <li>Oslo</li>
-                                <ul>
-                                    <li>h1.jpg</li>
-                                    <li>l1.jpg</li>
-                                    <li>r1.jpg</li>
-                                </ul>
-                                <li>Kristiansand</li>
-                                <ul>
-                                    <li>h2.jpg</li>
-                                    <li>l2.jpg</li>
-                                    <li>r2.jpg</li>
-                                </ul>
-                                <li>Bergen</li>
-                                <ul>
-                                    <li>h3.jpg</li>
-                                    <li>l3.jpg</li>
-                                    <li>r3.jpg</li>
-                                </ul>
-                                <li>Trondheim</li>
-                                <ul>
-                                    <li>h4.jpeg</li>
-                                    <li>l4.jpeg</li>
-                                    <li>r4.jpeg</li>
-                                </ul>
-                                <li>Tromsø</li>
-                                <ul>
-                                    <li>h5.jpeg</li>
-                                    <li>l5.jpeg</li>
-                                    <li>r5.jpeg</li>
-                                </ul>
-                                <li>Molde</li>
-                                <ul>
-                                    <li>h6.jpeg</li>
-                                    <li>l6.jpeg</li>
-                                    <li>r6.jpeg</li>
-                                </ul>
-                                <li>Fredrikstad</li>
-                                <ul>
-                                    <li>h7.jpeg</li>
-                                    <li>l7.jpeg</li>
-                                    <li>r7.jpeg</li>
-                                </ul>
-                            </ul>
-                        </ul>
+                            <li><ul>
+                                <li>boliger/</li>
+                            
+                                <li><ul>
+                                    <li>Oslo</li>
+                                    <li><ul>
+                                        <li>h1.jpg</li>
+                                        <li>l1.jpg</li>
+                                        <li>r1.jpg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>
+                                    <li>Kristiansand</li>
+                                    <li><ul>
+                                        <li>h2.jpg</li>
+                                        <li>l2.jpg</li>
+                                        <li>r2.jpg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>
+                                    <li>Bergen</li>
+                                    <li><ul>
+                                        <li>h3.jpg</li>
+                                        <li>l3.jpg</li>
+                                        <li>r3.jpg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>
+                                    <li>Trondheim</li>
+                                    <li><ul>
+                                        <li>h4.jpeg</li>
+                                        <li>l4.jpeg</li>
+                                        <li>r4.jpeg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>
+                                    <li>Tromsø</li>
+                                    <li><ul>
+                                        <li>h5.jpeg</li>
+                                        <li>l5.jpeg</li>
+                                        <li>r5.jpeg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>    
+                                    <li>Molde</li>
+                                    <li><ul>
+                                        <li>h6.jpeg</li>
+                                        <li>l6.jpeg</li>
+                                        <li>r6.jpeg</li>
+                                    </ul></li>
+                                </ul></li>
+                                <li><ul>
+                                    <li>Fredrikstad</li>
+                                    <li><ul>
+                                        <li>h7.jpeg</li>
+                                        <li>l7.jpeg</li>
+                                        <li>r7.jpeg</li>
+                                    </ul></li>
+                                </ul></li>
+                            </ul></li>
                         <li>scripts/</li>
-                        <ul>
-                            <li>finnBolig_pres.js</li>
-                            <li>finnBolig_filt.js</li>
-                            <li>kontaktOss.js</li>
-                            <li>laanUt.js</li>
-                        </ul>
+                            <li>
+                                <ul>
+                                    <li>finnBolig_pres.js</li>
+                                    <li>finnBolig_filt.js</li>
+                                    <li>kontaktOss.js</li>
+                                    <li>laanUt.js</li>
+                                </ul>
+                            </li>
                         <li>styling.css</li>
                         
                     </ul>
-                    
-                </ul>
                 
             </div>
             
         </div>
             <p>Følgende filer vil bli utarbeidet under programmeringsfasen:</p>
-            <img src="../p2/img/mockups/arbeid_struktur.jpg" width="600" height="600">
+            <img src="../p2/img/mockups/arbeid_struktur.jpg" width="600" height="600" alt="arbeids-struktur">
         </div>
     </div>
 </div>
